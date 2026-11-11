@@ -54,7 +54,7 @@ public class CourseWorkThree{
 				
 				System.out.println("Hello " + name + ". You have to pay Income Tax per month : " + (int)tax);
 				break;
-				
+				//mhd umar
 			case 2 :
 				System.out.println("+------------------------------------------------------+");
 				System.out.println("|               Calculate Annual Bonus                 |");
@@ -79,7 +79,7 @@ public class CourseWorkThree{
 				}
 				System.out.println("Annual bonus   - " + bonus);
 				break;
-					
+				//mhd umar	
 			case 3:
 			    System.out.println("+------------------------------------------------------+");
 				System.out.println("|               Calculate Loan amount                  |");
@@ -95,7 +95,7 @@ public class CourseWorkThree{
 				 System.out.print("You can not get a loan because your salary lessthan RS. 50 000...");
 			 }
 			 
-			 
+			 //mhd umar
 			 
 			    else {
 				System.out.print("Enter number of Year : ");
