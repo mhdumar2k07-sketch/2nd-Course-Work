@@ -2,16 +2,16 @@ import java.util.Scanner;
 public class CourseWorkThree{
 	public static void main (String[]args){
 		Scanner input = new Scanner (System.in);
-		System.out.println("+------------------------------------------------------+");
+		System.out.println("+" + "-".repeat(54) + "+") ;
 		System.out.println("|               SALARY INFORMATION SYSTEM              |");
-		System.out.println("+------------------------------------------------------+");
+		System.out.println("+" + "-".repeat(54) + "+");
 		
 		System.out.println();
 		System.out.println();
 		
-		System.out.println("	[1]  Calculate Income Tax ");
-		System.out.println("	[2]  Calculate Anual Bouns ");
-		System.out.println("	[3]  Calculate Loan Amount ");
+		System.out.println("\t[1]  Calculate Income Tax ");
+		System.out.println("\t[2]  Calculate Anual Bouns ");
+		System.out.println("\t[3]  Calculate Loan Amount ");
 		
 		System.out.println();
 		System.out.println();
@@ -20,10 +20,9 @@ public class CourseWorkThree{
 		int option = input.nextInt();
 		switch(option){
 			case 1 :
-				System.out.println("+------------------------------------------------------+");
+				System.out.println("+" + "-".repeat(54) + "+");
 				System.out.println("|               Calculate Income Tax                   |");
-				System.out.println("+------------------------------------------------------+");	
-				System.out.println();
+				System.out.println("+" + "-".repeat(54) + "+") ;				System.out.println();
 				System.out.print("Enter Your Name : ");
 				String name = input.next();
 				System.out.print("Enter Your montly Income : ");
@@ -54,11 +53,11 @@ public class CourseWorkThree{
 				
 				System.out.println("Hello " + name + ". You have to pay Income Tax per month : " + (int)tax);
 				break;
-				//mhd umar
+				
 			case 2 :
-				System.out.println("+------------------------------------------------------+");
+				System.out.println("+" + "-".repeat(54) + "+") ;
 				System.out.println("|               Calculate Annual Bonus                 |");
-				System.out.println("+------------------------------------------------------+");
+				System.out.println("+" + "-".repeat(54) + "+") ;
 				System.out.println();
 				System.out.print("Enter Your Name : ");
 				String name2 = input.next();
@@ -79,11 +78,11 @@ public class CourseWorkThree{
 				}
 				System.out.println("Annual bonus   - " + bonus);
 				break;
-				//mhd umar	
+					
 			case 3:
-			    System.out.println("+------------------------------------------------------+");
+			    System.out.println("+" + "-".repeat(54) + "+") ;
 				System.out.println("|               Calculate Loan amount                  |");
-				System.out.println("+------------------------------------------------------+");
+				System.out.println("+" + "-".repeat(54) + "+") ;
 				System.out.println();
 				System.out.println();
 				System.out.print("Input employee Name - ");
@@ -95,7 +94,7 @@ public class CourseWorkThree{
 				 System.out.print("You can not get a loan because your salary lessthan RS. 50 000...");
 			 }
 			 
-			 //mhd umar
+			 
 			 
 			    else {
 				System.out.print("Enter number of Year : ");
